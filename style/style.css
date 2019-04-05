@@ -1,0 +1,37 @@
+body{
+    background-image: url("../imgs/b.jpg");
+    background-color: #cccccc;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main{
+    background-color: ghostwhite;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+header{
+    text-align: center;
+}
+header img {
+    height: 350px;
+    width: 400px;
+}
+
+
+@media screen and (max-width: 600px){
+    header img {
+        height: 250px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        position: relative;
+        background-image: url("../imgs/b.jpg");
+        background-repeat:no-repeat;
+        background-size:100% 100vh;
+    }
+}
