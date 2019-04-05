@@ -1,15 +1,26 @@
 body{
     background-image: url("../imgs/b.jpg");
-    background-color: #cccccc;
-    
+    background-color: #020202;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .main{
-    background-color: ghostwhite;
-    opacity: 0.3;
-    filter: alpha(opacity=30);
+    background-color: rgba(234, 237, 247, 0.5);
+    border: 0px solid rgba(224, 229, 247, 0.1);
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    /*opacity: 0.3;
+    filter: alpha(opacity=30)*/;
+    
+}
+.main p.content{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    color: rgba(26, 24, 24,1);
 }
 header{
     text-align: center;
