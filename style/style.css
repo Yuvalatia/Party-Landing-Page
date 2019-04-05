@@ -12,6 +12,9 @@ footer p {
     text-align: center;
     color: rgb(214, 214, 231);
 }
+footer p a:hover{
+    text-decoration: none;
+}
 .main{
     background-color: rgba(234, 237, 247, 0.5);
     border: 0px solid rgba(224, 229, 247, 0.1);
