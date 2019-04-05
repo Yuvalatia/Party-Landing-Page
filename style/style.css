@@ -4,15 +4,33 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+textarea.form-control{
+    text-align: right;
+    height: 150px;
+}
+footer p {
+    text-align: center;
+    color: rgb(214, 214, 231);
+}
 .main{
     background-color: rgba(234, 237, 247, 0.5);
     border: 0px solid rgba(224, 229, 247, 0.1);
-    
     border-radius: 25px;
     margin-bottom: 10px;
     text-align: right;
     
+}
+.formZone{
+    background-color: rgba(234, 237, 247, 0.8);
+    border: 0px solid rgba(224, 229, 247, 0.1);
+    border-radius: 25px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+.formZone h2 {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .main h1 {
     text-align: center;
