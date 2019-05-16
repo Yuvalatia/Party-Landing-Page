@@ -138,3 +138,13 @@ function valForm(){
 textarea.onkeyup = function () {
     document.getElementById("commentHelp").innerHTML = (200 - this.value.length) + " :מספר תווים שנשאר "
 };
+
+    /* --- Modal Settings --- */
+let modal = document.getElementsByClassName("modal-bg")[0];
+document.getElementById("contact-link").addEventListener("click",function () {
+    modal.style.display = "flex";
+});
+document.getElementById("close").addEventListener("click", function () {
+    modal.style.display = "none";
+});
+

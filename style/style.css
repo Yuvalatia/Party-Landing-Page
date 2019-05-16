@@ -61,6 +61,7 @@ header img {
     height: 180px;
 }
 #pict{
+    margin-top: 10px;
     background-image: url("../imgs/pic1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -102,6 +103,9 @@ td{
 .secondm{
     padding-bottom: 20px;
 }
+#contact-link{
+    color: #007bff;
+}
 .secondm h2 {
     text-align: center;
 }
@@ -113,6 +117,53 @@ img.icons{
 .iconend {
     text-align: center;
     padding-bottom: 10px;
+}
+
+.modal-bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.85);
+    position: absolute;
+    position: fixed;
+    top:0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal-content{
+    width: 700px;
+    height: 440px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+
+}
+.modal-text{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-right: 35px;
+
+}
+.modal-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+#author{
+    width: 290px;
+    height: 340px;
+}
+#modal-close{
+    position: absolute;
+    top:-15px;
+    right:5px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
 }
 
 @media screen and (max-width: 600px){
