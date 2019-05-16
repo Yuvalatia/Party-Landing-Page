@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8834a1aa-d624-4588-8d95-b791c8fc4be6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="169" column="43" selection-start-line="169" selection-start-column="43" selection-end-line="169" selection-end-column="43" />
+            <state relative-caret-position="226">
+              <caret line="129" column="47" selection-start-line="129" selection-start-column="47" selection-end-line="129" selection-end-column="47" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -26,20 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/style.css">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="99" selection-start-line="99" selection-end-line="99" />
+            <state relative-caret-position="3058">
+              <caret line="139" column="2" lean-forward="true" selection-start-line="139" selection-start-column="2" selection-end-line="139" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/script.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="350">
+              <caret line="99" selection-start-line="99" selection-end-line="99" />
             </state>
           </provider>
         </entry>
@@ -69,8 +69,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="40" />
-    <option name="y" value="45" />
+    <option name="x" value="851" />
+    <option name="y" value="60" />
     <option name="width" value="1065" />
     <option name="height" value="980" />
   </component>
@@ -128,18 +128,19 @@
       <option name="presentableId" value="Default" />
       <updated>1557832919541</updated>
       <workItem from="1557832920775" duration="3240000" />
-      <workItem from="1557910540138" duration="19090000" />
+      <workItem from="1557910540138" duration="24472000" />
+      <workItem from="1558018737200" duration="5077000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22330000" />
+    <option name="totallyTimeSpent" value="32789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -166,15 +167,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/style/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
+        <state relative-caret-position="350">
           <caret line="99" selection-start-line="99" selection-end-line="99" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="169" column="43" selection-start-line="169" selection-start-column="43" selection-end-line="169" selection-end-column="43" />
+        <state relative-caret-position="226">
+          <caret line="129" column="47" selection-start-line="129" selection-start-column="47" selection-end-line="129" selection-end-column="47" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -183,8 +184,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="3058">
+          <caret line="139" column="2" lean-forward="true" selection-start-line="139" selection-start-column="2" selection-end-line="139" selection-end-column="2" />
         </state>
       </provider>
     </entry>
