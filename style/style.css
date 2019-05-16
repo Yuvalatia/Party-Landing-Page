@@ -53,7 +53,9 @@ header img {
     height: 350px;
     width: 400px;
 }
-
+.content{
+    font-size: 16px;
+}
 #pic1 {
     width: 300px;
     height: 180px;
@@ -94,7 +96,9 @@ font-size: 20px;
     padding-top: 30px;
 
 }
+td{
 
+}
 .secondm{
     padding-bottom: 20px;
 }
