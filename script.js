@@ -148,3 +148,7 @@ document.getElementById("close").addEventListener("click", function () {
     modal.style.display = "none";
 });
 
+
+document.getElementsByTagName("body")[0].addEventListener("mouseleave", function () {
+    window.alert("Pre tickets ending soon...")
+});
