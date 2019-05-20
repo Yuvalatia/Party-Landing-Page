@@ -70,7 +70,7 @@ document.getElementById("right-arrow").addEventListener("click",function () {
     /* --- Form Checked --- */
 
 // val helpers
-let letters =  /^[A-Za-z]+$/;
+let letters =  /^[א-תA-Za-z ]+$/;
 let numbers = /^[0-9]+$/;
 let hebrow = /[\u0590-\u05FF]/;
 // inputs
@@ -86,7 +86,7 @@ function valForm(){
     // var for check if every input is working fine
     let allGood = true;
     // Full name Validation
-    if(!name.value.match(letters) || name.value == ""){
+    if(!name.value.match(letters) || name.value == "" ){
         allGood = false;
         name.classList.add("is-invalid");
     }else{
@@ -148,8 +148,10 @@ document.getElementById("close").addEventListener("click", function () {
     modal.style.display = "none";
 });
 
-
+    /*--- Leaving message --- */
+/*
 document.getElementsByTagName("body")[0].addEventListener("mouseleave", function () {
     window.alert("Pre tickets ending soon...")
 });
+*/
 
