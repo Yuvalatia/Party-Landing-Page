@@ -81,7 +81,7 @@ let gnum = document.getElementById("numOfGuests");
 let textarea = document.getElementById("comment");
 let email = document.getElementById("email");
 
-
+/*
 function valForm(){
     // var for check if every input is working fine
     let allGood = true;
@@ -134,6 +134,9 @@ function valForm(){
     return allGood;
 
 }
+
+*/
+
 // Text area - letters counter
 textarea.onkeyup = function () {
     document.getElementById("commentHelp").innerHTML = (200 - this.value.length) + " :מספר תווים שנשאר "
