@@ -98,24 +98,23 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                            <td>19:00</td>
-                            <td>הפרדס 33</td>
-                            <td>יהודה עטיה</td>
-                            <th scope="row">1</th>
-                        </tr>
-                        <tr>
-                            <td>19:20</td>
-                            <td>היכל הספורט</td>
-                            <td>יובל עטיה</td>
-                            <th scope="row">2</th>
-                        </tr>
-                        <tr>
-                            <td>19:30</td>
-                            <td>התפוז 8</td>
-                            <td>משה פייגלין</td>
-                            <th scope="row">3</th>
-                        </tr>
+                        <?php
+                        $tableItems = [['time' => '19:00','address' => 'הפרדס 33','name' => 'יהודה עטיה'],
+                            ['time' => '19:20','address' => 'היכל הספורט','name' => 'יובל עטיה'],
+                            ['time' => '19:30','address' => 'התפוז 8','name' => 'משה פייגלין']];
+                        $counter = 1;
+
+                        foreach($tableItems as $item){ ?>
+                            <tr>
+                                <td> <?php echo $item['time']; ?> </td>
+                                <td><?php echo $item['address']; ?> </td>
+                                <td><?php echo $item['name']; ?> </td>
+                                <th scope="row"><?php echo $counter; ?></th>
+                            </tr>
+                            <?php
+                                $counter++;
+                            }
+                        ?>
                         </tbody>
                     </table>
                 </div>
