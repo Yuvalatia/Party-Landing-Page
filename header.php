@@ -50,8 +50,25 @@
                 </div>
                 <div class="date col-md-8">
                     <br><br>
-                    <h2><span class="badge badge-danger">01/05/2019</span> תאריך אחרון לסגירת מקומות</h2>
-                    <h2><span class="badge badge-danger">05/05/2019</span> תאריך האירוע</h2>
+                    <h2><span class="badge badge-danger">05/10/2019</span> תאריך האירוע</h2>
+                    <h4>
+                    <?php
+                    // vars
+                    $tareget = mktime(0,0,0,10,5,2019);
+                    $current = time();
+
+                    $diff = $tareget - $current;
+
+                    // start calculate countdown
+                    $days = floor($diff / 86400);
+                    $hours = floor(floor($diff % 86400) / 3600);
+                    $mins = floor(floor(floor($diff % 86400) % 3600) / 60);
+                    $sec = floor(floor(floor($diff % 86400) % 3600) % 60);
+
+                    echo "$days days $hours hours $mins minutes $sec seconds";
+
+                    ?>
+                    </h4>
                 </div>
 
             </div>
