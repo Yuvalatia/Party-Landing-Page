@@ -202,3 +202,8 @@ img.icons{
         bottom: -110px;
     }
 }
+#date {
+    color: #fbff1e;
+    margin-top: 5px;
+    margin-left: 5px;
+}

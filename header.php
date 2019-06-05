@@ -11,7 +11,7 @@
     <title>Ashkelon Party | Yuval Atia</title>
 </head>
 <body>
-
+<span id="date"><?php echo date('l jS \of F Y h:i:s A'); ?></span>
 <div class="container">
     <header>
         <img src="imgs/logo1.png" alt="logo">
@@ -42,10 +42,17 @@
                 <div class="sqdual col-md-4">
                     <ul class="list-group">
                         <li class="list-group-item list-group-item-dark text-center">Ashkelon Party - לוח זמנים</li>
-                        <li class="list-group-item"><b>20:00</b> פתיחת שערים <i class="fas fa-chevron-left"></i></li>
-                        <li class="list-group-item"><b>21:00</b> הפועה 1 <i class="fas fa-chevron-left"></i></li>
-                        <li class="list-group-item"><b>22:00</b> הפועה 2 <i class="fas fa-chevron-left"></i></li>
-                        <li class="list-group-item"><b>23:00</b> ערן זהבי המלך מגיע <i class="fas fa-futbol"></i></li>
+                        <?php
+                        $items = [['time' => '20:00','title' => ' פתיחת שערים <i class="fas fa-chevron-left"></i>'],
+                            ['time' => '21:00','title' => ' הפועה 1 <i class="fas fa-chevron-left"></i>'],
+                            ['time' => '22:00','title' => ' הפועה 2 <i class="fas fa-chevron-left"></i>'],
+                            ['time' => '23:00','title' => ' ערן זהבי המלך מגיע <i class="fas fa-futbol"></i>']];
+
+                        foreach($items as $item){?>
+                            <li class="list-group-item"><b><?php echo $item['time']; ?></b><?php echo $item['title']; ?></li>
+                        <?php
+                        }
+                        ?>
                     </ul>
                 </div>
                 <div class="date col-md-8">
